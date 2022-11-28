@@ -1,0 +1,350 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main, .content {
+    margin: 0px auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    color: white;
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.redes-socias ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-socias {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: white;
+    margin: 0px auto;
+    width: 980px;
+    padding: 16px;
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    width: 190px;
+    margin-top: 10px;
+    padding: 0px 12px;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+/* Configuração do botão do slide */
+
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url(/img/anterior.png);
+    position: absolute;
+    z-index: 8; /* ajuda deixando colocar configurações css acima de outras camadas css*/
+    top: 45%;
+    left: 5%;
+}
+
+button.slick-next {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url(/img/proximo.png);
+    position: absolute;
+    z-index: 8;
+    top: 45%;
+    right: 5%;
+}
+
+.slick.initialized {
+    overflow: hidden;
+}
+
+.slick-track {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid white;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0px auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 600px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display:inline-block;
+}
+
+/*Texto destaque de baixo do slide*/
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque p {
+    margin: 30px auto;
+    color: #9a9a9a;
+    font-size: 15px;
+    width: 400px;
+}
+
+.col-3 {
+    width: 21%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 0em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+/*Area postagem*/
+
+.postagem {
+    background-color: #ccc;
+    text-align: center;
+    height: 1600px;
+    clear: both;
+}
+
+.postagem h1 {
+    padding-top: 10px;
+}
+
+.postagem img {
+    width: 900px;
+    border-radius: 10px;
+}
+
+.postagem p {
+    margin: 20px auto;
+    width: 900px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.postagem a {
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 21px;
+    font-size: 18px;
+    padding: 10px;
+    color: #00BAC6;
+}
+
+.postagem a:hover {
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 21px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+}
+
+/*Area conteudo paginas*/
+
+.conteudo {
+    margin: 0px auto;
+    width: 900px;
+}
+
+.conteudo img {
+    width: 900px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.lista-fatores {
+    padding: 0px 20px;
+}
+
+.lista-fatores li {
+    margin-bottom: 5px;
+}
+
+.links-conteudo ul {
+    list-style: none;
+}
+
+.links-conteudo li {
+    margin-bottom: 5px;
+}
+
+.links-conteudo a {
+    text-decoration: none;
+    color: black;
+}
+
+.links-conteudo img {
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+}
+
+.links-conteudo a:hover {
+    text-decoration: underline;
+    color: #00BAC6;
+}
+
+/*Area rodape*/
+
+.rodape {
+    padding: 5px;
+    background: black;   
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape a:hover {
+    border-bottom: 1px solid #00BAC6;
+    color: #00BAC6;
+}
+
+/* Campo Equipe */
+
+.contatos {
+
+    margin: 0px auto;
+    width: 900px;
+    height: 450px;
+}
+
+.contatos-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contatos p, h2 {
+    text-align: center;
+}
+
+.contatos img {
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.contatos-filho {
+    align-items: center;
+}
